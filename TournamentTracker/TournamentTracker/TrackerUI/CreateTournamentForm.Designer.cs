@@ -39,7 +39,7 @@
             this.addTeamButton = new System.Windows.Forms.Button();
             this.createPrizeButton = new System.Windows.Forms.Button();
             this.tournamentPlayersListBox = new System.Windows.Forms.ListBox();
-            this.tournamentPlayerListLabel = new System.Windows.Forms.Label();
+            this.tournamentPlayersListLabel = new System.Windows.Forms.Label();
             this.deleteSelectedPrizeButton = new System.Windows.Forms.Button();
             this.prizesLabel = new System.Windows.Forms.Label();
             this.prizesListBox = new System.Windows.Forms.ListBox();
@@ -164,17 +164,17 @@
             this.tournamentPlayersListBox.Size = new System.Drawing.Size(340, 152);
             this.tournamentPlayersListBox.TabIndex = 18;
             // 
-            // tournamentPlayerListLabel
+            // tournamentPlayersListLabel
             // 
-            this.tournamentPlayerListLabel.AutoSize = true;
-            this.tournamentPlayerListLabel.Font = new System.Drawing.Font("Segoe UI Light", 20.25F);
-            this.tournamentPlayerListLabel.ForeColor = System.Drawing.Color.Blue;
-            this.tournamentPlayerListLabel.Location = new System.Drawing.Point(503, 80);
-            this.tournamentPlayerListLabel.Name = "tournamentPlayerListLabel";
-            this.tournamentPlayerListLabel.Size = new System.Drawing.Size(189, 37);
-            this.tournamentPlayerListLabel.TabIndex = 19;
-            this.tournamentPlayerListLabel.Text = "Teams / Players";
-            this.tournamentPlayerListLabel.Click += new System.EventHandler(this.label1_Click);
+            this.tournamentPlayersListLabel.AutoSize = true;
+            this.tournamentPlayersListLabel.Font = new System.Drawing.Font("Segoe UI Light", 20.25F);
+            this.tournamentPlayersListLabel.ForeColor = System.Drawing.Color.Blue;
+            this.tournamentPlayersListLabel.Location = new System.Drawing.Point(503, 80);
+            this.tournamentPlayersListLabel.Name = "tournamentPlayersListLabel";
+            this.tournamentPlayersListLabel.Size = new System.Drawing.Size(189, 37);
+            this.tournamentPlayersListLabel.TabIndex = 19;
+            this.tournamentPlayersListLabel.Text = "Teams / Players";
+            this.tournamentPlayersListLabel.Click += new System.EventHandler(this.label1_Click);
             // 
             // deleteSelectedPrizeButton
             // 
@@ -253,7 +253,7 @@
             this.Controls.Add(this.deleteSelectedPrizeButton);
             this.Controls.Add(this.prizesLabel);
             this.Controls.Add(this.prizesListBox);
-            this.Controls.Add(this.tournamentPlayerListLabel);
+            this.Controls.Add(this.tournamentPlayersListLabel);
             this.Controls.Add(this.tournamentPlayersListBox);
             this.Controls.Add(this.createPrizeButton);
             this.Controls.Add(this.addTeamButton);
@@ -286,7 +286,7 @@
         private System.Windows.Forms.Button addTeamButton;
         private System.Windows.Forms.Button createPrizeButton;
         private System.Windows.Forms.ListBox tournamentPlayersListBox;
-        private System.Windows.Forms.Label tournamentPlayerListLabel;
+        private System.Windows.Forms.Label tournamentPlayersListLabel;
         private System.Windows.Forms.Button deleteSelectedPrizeButton;
         private System.Windows.Forms.Label prizesLabel;
         private System.Windows.Forms.ListBox prizesListBox;
